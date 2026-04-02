@@ -5,9 +5,11 @@ export default function Contact() {
     <section id="contact" className="scroll-mt-24">
     <div id="contact" className="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white px-6 py-20 text-center">
 
-      <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-tight
-      text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
-        📬 Contact Me
+      <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-tight flex items-center justify-center gap-3">
+        <span>📬</span>
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
+          Contact Me
+        </span>
       </h2>
 
       <p className="text-gray-400 mt-3">

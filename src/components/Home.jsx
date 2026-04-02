@@ -10,7 +10,7 @@ export default function Home() {
         bg-gradient-to-br from-gray-900 via-black to-gray-900 
         text-white px-4 md:px-6
       ">
-        
+
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT SIDE */}
@@ -41,11 +41,14 @@ export default function Home() {
             <a 
               href="/Penil_Hirapara_Resume.pdf" 
               download
-              className="inline-flex items-center gap-2 px-8 py-3 rounded-xl 
-              bg-white/10 backdrop-blur-lg border border-white/20 
-              hover:border-blue-400 hover:shadow-[0_0_20px_rgba(34,197,94,0.4)] 
-              hover:scale-105 transition duration-300"
-            >
+              className="inline-flex items-center gap-2 px-7 py-3 rounded-xl 
+                bg-gradient-to-r from-blue-500 to-green-500 
+                text-white font-semibold
+                shadow-[0_8px_30px_rgba(59,130,246,0.4)]
+                hover:shadow-[0_12px_40px_rgba(34,197,94,0.6)]
+                hover:-translate-y-1 hover:scale-105
+                transition duration-300"
+              >
               <Download size={20} />
               <span>Resume</span>
             </a>
@@ -59,7 +62,7 @@ export default function Home() {
           <div className="relative group">
 
             {/* Glow effect */}
-            <div className="absolute inset-0 rounded-2xl bg-green-400/20 blur-2xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
+            <div className="absolute inset-0 rounded-2xl bg-green-400 blur-2xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
             {/* Image */}
             <img
