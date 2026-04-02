@@ -86,7 +86,7 @@ export default function Experience() {
 
             {/* Tech Tags */}
             <div className="flex flex-wrap gap-2 mt-5">
-              {["Java", "Spring Boot", "Kafka", "AWS", "MySQL"].map((tech) => (
+              {["Java", "Spring Boot", "Spring Security","Kafka", "AWS", "Database","RabbitMQ","Docker"].map((tech) => (
                 <span
                   key={tech}
                   className="px-3 py-1 text-xs rounded-full bg-green-500/10 text-green-300 border border-green-500/20 hover:bg-green-500/20 transition"
@@ -113,21 +113,26 @@ export default function Experience() {
               KEY WORK
             </p>
 
-            <div className="mt-4 space-y-4 text-gray-300">
+<div className="mt-4 pl-2 border-green-500/30 space-y-3 text-gray-300">            
 
               <div className="flex items-start gap-3">
                 <span className="text-green-400">●</span>
-                <p>OCR medical report system using AWS Lambda & Kafka</p>
+                <p>Developed and integrated REST APIs for handling high-volume data processing workflows</p>
               </div>
 
               <div className="flex items-start gap-3">
                 <span className="text-green-400">●</span>
-                <p>Loan management REST APIs with approval workflows</p>
+                <p>Implemented asynchronous processing using Kafka/RabbitMQ to improve system performance</p>
               </div>
 
               <div className="flex items-start gap-3">
                 <span className="text-green-400">●</span>
-                <p>Production-grade systems in Healthcare & Finance</p>
+                <p>Designed efficient database schemas and optimized queries for better performance</p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <span className="text-green-400">●</span>
+                <p>Secured applications using Spring Security (authentication & authorization)</p>
               </div>
 
             </div>
