@@ -8,7 +8,8 @@ export default function Skills() {
     <section id="skills" className="scroll-mt-24">
     <div id="skills" className="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white px-6 py-20 text-center">
 
-      <h2 className="text-4xl font-bold">
+      <h2 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-tight
+      text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
         🛠 Skills
       </h2>
 
