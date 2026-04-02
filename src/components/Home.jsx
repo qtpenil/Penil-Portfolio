@@ -4,8 +4,13 @@ import { Download } from "lucide-react";
 export default function Home() {
   return (
     <section id="home" className="scroll-mt-24">
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white px-6">
-
+      <div className="
+        min-h-screen flex items-center justify-center 
+        pt-16 md:pt-0
+        bg-gradient-to-br from-gray-900 via-black to-gray-900 
+        text-white px-4 md:px-6
+      ">
+        
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT SIDE */}
@@ -17,7 +22,8 @@ export default function Home() {
           </p>
 
           {/* Main heading */}
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight text-transparent bg-clip-text 
+          bg-gradient-to-r from-white via-gray-200 to-gray-400">
             Hi, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400">
               Penil Hirapara
@@ -57,7 +63,7 @@ export default function Home() {
 
             {/* Image */}
             <img
-              src="/profile.png"   // 👉 put your image in public folder
+              src="/Penil_Photo (2).jpg"   // 👉 put your image in public folder
               alt="Penil"
               className="w-72 h-80 object-cover rounded-2xl border border-white/10 
               group-hover:scale-105 transition duration-300"
